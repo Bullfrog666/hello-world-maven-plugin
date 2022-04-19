@@ -1,4 +1,4 @@
-package maven-plugin;
+package bullfrog;
 
 /**
  * Hello world!
