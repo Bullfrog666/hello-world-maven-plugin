@@ -43,6 +43,14 @@
             <artifactId>maven-site-plugin</artifactId>
             <version>3.8.2</version>
           </plugin>
+          <plugin>
+            <groupId>bullfrog</groupId>
+            <artifactId>helloworld-maven-plugin</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <configuration>
+              <name>Jason</name>
+            </configuration>
+          </plugin>
         </plugins>
       </pluginManagement>
     </build>
