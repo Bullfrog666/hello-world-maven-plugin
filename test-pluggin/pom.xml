@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>pluginMaven-project</artifactId>
+    <groupId>bullfrog</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>test-pluggin</artifactId>
+  <packaging>pom</packaging>
+
+  <build>
+      <plugins>
+        <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+        <plugin>
+          <groupId>${project.groupId}</groupId>
+          <artifactId>hello-world-maven-pluggin</artifactId>
+          <version>${project.version}</version>
+<!--          <executions>-->
+<!--            <execution>-->
+<!--              <id>cool</id>-->
+<!--              <phase>process-resources</phase>-->
+<!--              <goals><goal>greet</goal></goals>-->
+<!--            </execution>-->
+<!--          </executions>-->
+          <configuration>
+            <name>Jason</name>
+          </configuration>
+        </plugin>
+      </plugins>
+  </build>
+</project>
