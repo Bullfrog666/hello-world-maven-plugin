@@ -6,7 +6,6 @@ import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.plugins.annotations.*;
 import org.apache.maven.project.MavenProject;
 
-
 @Mojo(name = "greet", defaultPhase = LifecyclePhase.PROCESS_RESOURCES)
 
 public final class HelloWorldMojo extends AbstractMojo {

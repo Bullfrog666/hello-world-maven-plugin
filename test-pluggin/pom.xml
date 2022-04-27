@@ -17,13 +17,13 @@
           <groupId>${project.groupId}</groupId>
           <artifactId>hello-world-maven-pluggin</artifactId>
           <version>${project.version}</version>
-<!--          <executions>-->
-<!--            <execution>-->
+          <executions>
+            <execution>
 <!--              <id>cool</id>-->
 <!--              <phase>process-resources</phase>-->
-<!--              <goals><goal>greet</goal></goals>-->
-<!--            </execution>-->
-<!--          </executions>-->
+              <goals><goal>greet</goal></goals>
+            </execution>
+          </executions>
           <configuration>
             <name>Jason</name>
           </configuration>
